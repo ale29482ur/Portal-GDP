@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+
+.main{
+    display: flex;
+    justify-content: center;
+    }
+.card{
+    
+        margin: 50px;
+        background-color:  rgb(46, 2, 62);
+        color: rgb(172, 62, 199);
+        width: 499px;
+        height: 600px; 
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        text-align: center;
+}
+
+.card>img{
+width: 30%;
+border-radius: 50%;
+margin-top: 20px;
+
+
+}
+.btn{
+    font-size: 20px;
+    padding: 10px 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgba(53, 21, 87, 0.851);
+    color: rgb(124, 61, 142);
+    border: none;
+    transition: 0.5s background;
+    cursor: pointer;
+}
+.btn:hover{
+transition: 0.5s;
+background-color: rgb(130, 80, 171);
+}
+.bg{
+    background-image: url("https://www.shutterstock.com/image-illustration/coding-programming-developing-typing-script-600nw-2258898245.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
